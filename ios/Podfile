@@ -9,11 +9,13 @@ target 'googleFacebookLogin' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit' 
-
+  pod 'GoogleSignIn', '~> 4.4.0'
 
   target 'googleFacebookLogin-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
+    # pod 'RNGoogleSignin', :path => '../node_modules/react-native-google-signin'
+
   end
 
   target 'googleFacebookLoginTests' do

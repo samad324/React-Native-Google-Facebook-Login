@@ -9,12 +9,14 @@
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import FacebookBtn from './src/facebook'
+import GoogleBtn from './src/google'
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
         <FacebookBtn />
+        <GoogleBtn />
       </View>
     );
   }
